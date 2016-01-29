@@ -71,6 +71,7 @@
 	self.textLabel.font = [visualStyle fontForAction:action];
 	self.textLabel.textColor = [visualStyle textColorForAction:action];
 	
+	self.backgroundColor = [visualStyle backgroundColorForAction:action];
 	if (action.attributedTitle) {
 		self.textLabel.attributedText = action.attributedTitle;
 		self.accessibilityLabel = [action.attributedTitle string];

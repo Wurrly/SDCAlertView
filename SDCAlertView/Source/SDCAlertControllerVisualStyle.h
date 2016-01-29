@@ -48,6 +48,7 @@
 - (UIColor *)textColorForAction:(SDCAlertAction *)action;
 - (UIFont *)fontForAction:(SDCAlertAction *)action;
 
+- (UIColor *)backgroundColorForAction:(SDCAlertAction *)action;
 #pragma mark - Text Fields
 
 @property (nonatomic, readonly) UIFont *textFieldFont;

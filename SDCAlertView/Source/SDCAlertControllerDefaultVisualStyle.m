@@ -105,6 +105,10 @@
 	}
 }
 
+- (UIColor *)backgroundColorForAction:(SDCAlertAction *)action {
+	return [UIColor clearColor];
+}
+
 #pragma mark - Text Fields
 
 - (UIFont *)textFieldFont {
